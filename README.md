@@ -8,7 +8,7 @@
 
 - **Passo 2:** Dentro do diretório principal do backend, utilizando a versão do Node LTS (v20.18.0), rode o comando `npm i` para instalar todos os módulos de dependências do projeto.
 
-- **Passo 3:** Logo após a conclusão da instalação dos módulos e dependências do projeto, crie um aquivo na raiz do projeto chamado `.env` com o seguinte conteúdo: `DATABASE_URL="file:./dev.db"`. Este arquivo é essencial para o ORM saber o caminho do banco de dados em memória.
+- **Passo 3:** Logo após a conclusão da instalação dos módulos e dependências do projeto, crie um aquivo no diretório principal do backend chamado `.env` com o seguinte conteúdo: `DATABASE_URL="file:./dev.db"`. Este arquivo é essencial para o ORM saber o caminho do banco de dados em memória.
 
 - **Passo 4:** Rode o comando `npm start` para iniciar a instância em memória do SQLite, rodar as migrações do Prisma e subir a aplicação localmente no endereço `http://localhost:3000`.
 
